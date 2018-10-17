@@ -6,3 +6,4 @@ app.use(async (ctx,next) => {
 })
 
 app.listen(7798)
+console.log("Dome!")
