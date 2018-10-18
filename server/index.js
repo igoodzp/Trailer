@@ -1,3 +1,4 @@
+
 const Koa = require('koa')
 const app = new Koa()
 const {normal} = require('./tpl')
@@ -8,5 +9,5 @@ app.use(async (ctx,next) => {
 })
 
 app.listen(7798)
-
 console.log("Dome!")
+
